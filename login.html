@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+    <div class="login-box">
+        <h1 class="login-type">LOGIN</h1>
+
+        <form id="login-form" class="form">
+            <label for="email">GMAIL :</label>
+            <input type="email" id="email" placeholder="user07@gmail.com" autocomplete="email" required>
+
+            <label for="password">PASSWORD :</label>
+            <input type="password" id="password" placeholder="strongpw#A07" autocomplete="current-password" required>
+
+            <div class="save-password">
+                <label>
+                    <input type="checkbox"> save password
+                </label>
+                <a href="#" class="forgot-btn">Forgot password ?</a>
+            </div>
+
+            <div class="login">
+                <button type="submit">Enter</button>
+            </div>
+
+            <p class="auth-message" id="auth-message" role="status" aria-live="polite"></p>
+            <p class="auth-recovery" id="auth-recovery" hidden>
+                <a id="auth-recovery-link" href="register.HTML">Create this account on this site</a>
+            </p>
+            <p class="auth-switch">Don't have an account? <a href="register.HTML">Register</a></p>
+
+            <div class="text">
+                <label for="msg">Messages</label>
+                <textarea id="msg" placeholder="write your message"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>

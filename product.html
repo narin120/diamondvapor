@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product details for football shoes at DIAMOND.">
+    <title>Mizuno Morelia II Club | DIAMOND</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body class="product-page">
+    <header class="product-header">
+        <a class="product-brand" href="menu.html">DIAMOND</a>
+        <a class="product-back-link" href="menu.html">Back to products</a>
+    </header>
+
+    <main class="product-details">
+        <div class="product-image-panel">
+            <img
+                class="product-detail-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFo1Mtx3DLB2eVmGV0QVlSCSO2Yuxdvp3wxD12DpZZMoUERjQc52olHyf&amp;s=10"
+                alt="Mizuno Morelia II Club football shoe"
+            >
+        </div>
+
+        <section class="product-detail-copy" aria-labelledby="product-title">
+            <p class="product-detail-category">Football shoes</p>
+            <h1 id="product-title">Football shoe</h1>
+            <div class="product-detail-price">
+                <span class="product-detail-current-price">$99.99</span>
+                <span class="product-detail-old-price">$199.99</span>
+                <span class="product-detail-discount">50% off</span>
+            </div>
+            <p class="product-detail-description">
+                A classic football shoe designed for a comfortable fit and confident control on the pitch.
+            </p>
+            <a class="product-return-button" href="menu.html">Continue shopping</a>
+        </section>
+    </main>
+    <script>
+        const products = [
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - Blue/White", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFo1Mtx3DLB2eVmGV0QVlSCSO2Yuxdvp3wxD12DpZZMoUERjQc52olHyf&s=10", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - Red", image: "https://ryudbensports.sg/wp-content/uploads/2025/08/087ed7_174124fdfbf846d9a9413751dec18e3cmv2.webp", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - Green/Yellow", image: "https://i.ebayimg.com/images/g/vosAAOSwmz1loQMf/s-l1200.jpg", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - Pink", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrF6yrkjIxXhEOIYpV0W3X39TooqrEX_K46qt_VuTXha9haojk1XHVUSo&s=10", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - White/Red", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLkOf5_VhZi1zTaJeWAke58LqCTq_Pe4eCjQ5ODw1nFA-oFJnITGFCxts&s=10", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - White/Gold", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN2k6MNl_8W6HznQjtfpDxKrJkAev0-qyTmxCEHE0kSgr-IaBLNmXs5lLm&s=10", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - Black/Teal", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKSRkGwpn42tTVERsYMs8o3iq_bdEtAwWQCjYt74hc6wYqJAFyWsGt2O4l&s=10", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Alpha II Elite - Black/Neon Yellow", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH5Lu8W-FQDIMOvbnwyYYC56KuvuAacMXJZDRaRjSSaSzwO4eL0uu2skMM&s=10", price: 108, oldPrice: 180 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - Black/Orange", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKa4q6xtX-DQ3MSDyDGQ8TC7AvrAw6fg8Hgfs_Y8Z3bg&s=10", price: 75, oldPrice: 75 },
+            { brand: "Mizuno", name: "Mizuno Morelia II Club - Black", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJ7qz9ojB7OpWf9oFm123gHzPH6fk2joekn3TxhHia_l4y-Ogzhd8hJc&s=10", price: 75, oldPrice: 75 },
+            { brand: "Nike", name: "Nike Vapor 17", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZscRG_B8kARcIqiY0i19L7V5p9eHJqEjXW7T7Umr9Bdhyu4fGRSFdU8&s=10", price: 119.99, oldPrice: 199.99 },
+            { brand: "Adidas", name: "Adidas F50 Messi Elite", image: "https://thumblr.uniid.it/product/396836/cd81a4074a69.jpg?width=3840&format=webp&q=75", price: 109.99, oldPrice: 179.99 },
+            { brand: "Puma", name: "Puma Ultra 5", image: "https://www.futbolemotion.com/imagesarticulos/225603/grandes/bota-puma-ultra-5-match-fgag-azul-0.webp", price: 89.99, oldPrice: 149.99 },
+            { brand: "Nike", name: "Nike Mercurial Superfly 10", image: "https://static.nike.com/a/images/t_default/4f44164e-7f03-4f3f-befe-18febd425ec9/ZM+SUPERFLY+10+ELITE+FG+LV8.png", price: 149.99, oldPrice: 249.99 },
+            { brand: "Nike", name: "Nike Tiempo Legend 10", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy6IS6A43tNjXUciAUb5ZmeObOMU0gfz9oZk12TPkwGn7g2Y0Q5oGRjFbP&s=10", price: 124.99, oldPrice: 199.99 },
+            { brand: "Nike", name: "Nike Phantom GX 2", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWRXmCQtUUiNAtLx9qPT3w6IdkegYB0VpEJXYbhimwvaGQQXt1glBhC10&s=10", price: 139.99, oldPrice: 229.99 },
+            { brand: "Nike", name: "Nike Phantom Luna 2", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmbqBRxOSNQlQRJIlJ88ZY92Pd36cTnLPdVdDn3dD29jVLcKOR7wGQJIw&s=10", price: 134.99, oldPrice: 219.99 },
+            { brand: "Adidas", name: "Adidas Predator Elite", image: "https://assets.adidas.com/images/w_500,f_auto,q_auto/25bae03ee46f4630ab3e54b5626644b9_9366/Predator_Elite_Fold-Over_Tongue_Firm_Ground_Soccer_Cleats_White_JP6248_HM1.jpg", price: 159.99, oldPrice: 259.99 },
+            { brand: "Adidas", name: "Adidas Copa Pure 2", image: "https://assets.adidas.com/images/w_1880,f_auto,q_auto/8877930c12c64afd95e5106425792de1_9366/IG6402_22_model.jpg", price: 119.99, oldPrice: 189.99 },
+            { brand: "Adidas", name: "Adidas F50 Elite", image: "https://thumblr.uniid.it/product/358768/1ef2e7a1d462.jpg?width=3840&format=webp&q=75", price: 149.99, oldPrice: 239.99 },
+            { brand: "Puma", name: "Puma Future 8 Ultimate", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUC51FUGhan_qAD1Fz8NF9I_Jq8_MCZKj5FO7zqV5iPoemvnEf7ugJ3Q&s=10", price: 149.99, oldPrice: 239.99 },
+            { brand: "Puma", name: "Puma King Ultimate", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2W_GxlFYf3FPY0Hhymvs02Afyt3xNW0n_f3wfDJBIV5-qZVR-_mXTheq0&s=10", price: 129.99, oldPrice: 209.99 },
+            { brand: "Puma", name: "Puma Ultra 5 Ultimate", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK_LAOVZGCCyaX6ELTOYNVpSs4kLagpcEugthzvWch5XAvB3_Emp-iHpI&s=10", price: 139.99, oldPrice: 229.99 },
+            { brand: "Nike", name: "Nike Mercurial Vapor 16", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREWaZswS0kjeNWO0jql62cCNS_6oYa5-YzAJnQE36N7XGHORRpTDaqcS8&s=10", price: 129.99, oldPrice: 209.99 },
+            { brand: "Nike", name: "Nike Phantom GX Academy", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdO4UGTBznkPSsz9L3P_RDbbT9yiFTN7AYN2P2X9Zgzqbte1lqvFe-jX9G&s=10", price: 89.99, oldPrice: 139.99 },
+            { brand: "Nike", name: "Nike Tiempo Legend 10 Academy", image: "https://www.prodirectsport.com/cdn/shop/files/1001492_main.jpg?v=1789136730", price: 79.99, oldPrice: 129.99 },
+            { brand: "Adidas", name: "Adidas Predator League", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFjPcPqMXziIcGcGKc10itG09wBQ7qt1btthyy7D8cuA&s=10", price: 99.99, oldPrice: 159.99 },
+            { brand: "Adidas", name: "Adidas Copa Pure 3 League", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAVVRzBbDTWFG5q0onKZOqE0RCad-Xa-QSCMtDpdAjr24pvhbdYVl4esHC&s=10", price: 89.99, oldPrice: 149.99 },
+            { brand: "Puma", name: "Puma Future 8 Play", image: "https://www.sportkuster.com/image/cache/catalog/schuhe_puma/Puma-Future-8-Play-JR-FG.AG-108144_03-800x800w.jpg", price: 69.99, oldPrice: 109.99 },
+            { brand: "Puma", name: "Puma King Match", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUibXU6GJKo8ndQ3uXAlSzKftOedIkLlebkE9yX4JkwgPSlWbUVpSocAY&s=10", price: 79.99, oldPrice: 129.99 },
+            { brand: "Nike", name: "Nike Mercurial Superfly 10 Academy", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4AatQieSicr5Oi5MYwrFweI8NWJatMaBL84x9Xz6kM1ZunmpBdBmaFA&s=10", price: 89.99, oldPrice: 139.99 },
+            { brand: "Nike", name: "Nike Mercurial Vapor 16 Academy", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3P6iaQ9zFFkL2J-dRLZBlGSdie9O0cVLHyvttpjTfkBVzwE33l6aIP4rd&s=10", price: 84.99, oldPrice: 134.99 },
+            { brand: "Nike", name: "Nike Phantom GX 2 Pro", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScsQK799NZWxPDE7DWK3G_6bhPKh5aKpjlcyVU3jMl-eXDFxPIxn4M-5az&s=10", price: 114.99, oldPrice: 179.99 },
+            { brand: "Nike", name: "Nike Phantom Luna 2 Academy", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJOjsCCjcxXsBOwfOs6pKSkZdiQpedagEy_xhpGAgyVstVKBXm9lc9rBq&s=10", price: 89.99, oldPrice: 139.99 },
+            { brand: "Nike", name: "Nike Tiempo Legend 10 Pro", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-lT7QwCIJ0xTfZD6osw8asZUUvAGSPqbPEKL9E2g-qSw01SVXocl_lkA&s=10", price: 109.99, oldPrice: 169.99 },
+            { brand: "Nike", name: "Nike Premier 3", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8l_FGUnklKmGr2BrgCjfFD6M-dQ4rkRaRii3bbSVcIXSXtxwEgZoVRWlp&s=10", price: 94.99, oldPrice: 149.99 },
+            { brand: "Nike", name: "Nike Jr. Mercurial Vapor 16 Club", image: "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9d522af4-ee93-4943-af74-701ae400dfb7/THE+NIKE+PREMIER+III+FG.png", price: 54.99, oldPrice: 84.99 },
+            { brand: "Adidas", name: "Adidas Predator Elite Laceless", image: "https://assets.adidas.com/images/w_500,f_auto,q_auto/86375cc487014d83850647e06d751ad7_9366/Predator_Elite_Laceless_Soft_Ground_Boots_Red_ID3844_22_model.jpg", price: 159.99, oldPrice: 259.99 },
+            { brand: "Adidas", name: "Adidas Predator Accuracy 3 League", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1J7EmXM0CqBSdvYSNyZ3mXFrlhjbWnr7JySOjz_6ZebiiJ4d24bLdxOOy&s=10", price: 79.99, oldPrice: 124.99 },
+            { brand: "Adidas", name: "Adidas F50 League", image: "https://assets.adidas.com/images/w_1880,f_auto,q_auto/856eeba30d094096aefb6d37c6a4cac4_9366/IE0601_22_model.jpg", price: 99.99, oldPrice: 159.99 },
+            { brand: "Adidas", name: "Adidas Copa Pure 2 Elite", image: "https://www.prodirectsport.us/cdn/shop/files/1011417_main.jpg?v=1789134209&width=1065", price: 149.99, oldPrice: 239.99 },
+            { brand: "Adidas", name: "Adidas Copa Pure 2 Club", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGjZhSW_4qg7P-43COPgbHBZ_msh4k13agQXiCvNqeN_Ymkb78NbqwbGf&s=10", price: 64.99, oldPrice: 99.99 },
+            { brand: "Adidas", name: "Adidas X Crazyfast League", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYvQIHtVa2jXcd1Nayah8ER0PAfaKdtpwouLmC5wlGcEEG0mzUJqDrf3T&s=10", price: 89.99, oldPrice: 139.99 },
+            { brand: "Adidas", name: "Adidas Predator Club", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvUDnMH5q2GbMAdXUjXzwlN1S0kEPo1jdkffx3fYVwg_eKg47ueObHvEQ&s=10", price: 59.99, oldPrice: 94.99 },
+            { brand: "Puma", name: "Puma Future 8 Ultimate Low", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQcOaa_VG82GPJ8-EBVX-Fmux9cHcbeOkik_36gUrLAGjdystG6TCdRJ_e&s=10", price: 149.99, oldPrice: 239.99 },
+            { brand: "Puma", name: "Puma Future 8 Pro", image: "https://www.futbolemotion.com/imagesarticulos/241930/grandes/bota-puma-future-8-ultimate-low-fg-black-silver-fluo-green-0.webp", price: 109.99, oldPrice: 179.99 },
+            { brand: "Puma", name: "Puma Future 8 Match", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhbWgjUXJBmhNtL8bJozxhytruKmT9GT0jOdzKgy2MXfak-iXtWP8M5k&s=10", price: 84.99, oldPrice: 134.99 },
+            { brand: "Puma", name: "Puma Ultra 5 Carbon", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzHGW2WEfksJg2Q9tmdTWPyKESFCXMvBR0GQ2Yxcjng&s", price: 159.99, oldPrice: 259.99 },
+            { brand: "Puma", name: "Puma Ultra 5 Pro", image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108165/01/sv01/fnd/PNA/fmt/png/ULTRA-5-PRO-Firm-Ground/Artificial-Ground-Big-Kids'-Soccer-Cleats", price: 109.99, oldPrice: 174.99 },
+            { brand: "Puma", name: "Puma King Ultimate Low", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUljDQ4Q6p2nNzp8FG3iFwjJAV-IohAf9O8cXcAkp39g&s=10", price: 129.99, oldPrice: 209.99 },
+            { brand: "Puma", name: "Puma King Play", image: "https://gleesonsport.ie/cdn/shop/files/0524391_1200x.jpg?v=1695731480", price: 64.99, oldPrice: 99.99 }
+        ];
+        const variant = Number(new URLSearchParams(window.location.search).get("variant"));
+        const productIndex = Number.isInteger(variant) && variant >= 1 && variant <= products.length
+            ? variant - 1
+            : 0;
+        const product = products[productIndex];
+        const productImage = document.querySelector(".product-detail-image");
+        productImage.src = product.image;
+        productImage.alt = `${product.name} football shoe`;
+        document.querySelector("#product-title").textContent = product.name;
+        document.querySelector(".product-detail-category").textContent = `${product.brand} · Football shoes`;
+        document.querySelector(".product-detail-current-price").textContent = `$${product.price.toFixed(2)}`;
+        document.querySelector(".product-detail-old-price").textContent = `$${product.oldPrice.toFixed(2)}`;
+        document.querySelector(".product-detail-discount").textContent =
+            `${Math.round((1 - product.price / product.oldPrice) * 100)}% off`;
+        const hasDiscount = product.oldPrice > product.price;
+        document.querySelector(".product-detail-old-price").hidden = !hasDiscount;
+        document.querySelector(".product-detail-discount").hidden = !hasDiscount;
+        document.title = `${product.name} | DIAMOND`;
+    </script>
+    <script src="shop-features.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+#index-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 7rem 1rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1d2733;
+  background-image:
+    linear-gradient(rgba(10, 20, 32, 0.35), rgba(10, 20, 32, 0.35)),
+    url("./Gemini_Generated_Image_9umz399umz399umz.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+}
+
+#main-form {
+  background-color: #ffffff;
+  padding: 35px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+}
+
+#main-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#main-form button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#main-form button:hover {
+  background-color: #ef1630;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#main-form button:active {
+  transform: translateY(0);
+}
